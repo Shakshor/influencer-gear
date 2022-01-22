@@ -1,9 +1,11 @@
  /* /------fonts link --------/ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* common styles */
+/* /----- common styles ------/*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -80,7 +82,7 @@ hr {
 
 .collection-area{
     width: 1047px;
-    height: 1662px;
+    height: 1230px;
     margin: 0 auto;
 }
 .card-collection{
@@ -96,9 +98,6 @@ hr {
     padding-bottom: 30px;
 }
 .card{
-    /* width: 330px;
-    height: 520px; */
-    border: 2px solid brown;
     border-radius: 5px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -131,4 +130,33 @@ hr {
 }
 .card-info{
     color: #787885;
+}
+.more-button{
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+}
+.more-button button{
+    color:  #E02C6D;
+    background-color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+/* /----footer area ----/ */
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+.footer-part{
+    padding: 20px 0;
+}
+.footer-part a{
+    margin: 0 10px;
+}
+.footer-part i{
+    font-size: 25px;
+    color: white;
 }
