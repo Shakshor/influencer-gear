@@ -229,7 +229,7 @@ footer{
 /*-----------------
  mobile device
  ------------------ */
- @media screen and (max-width:426px){
+ @media only screen and (max-width:426px){
     .nav-bar{
         height: 25px;
     }
@@ -289,6 +289,7 @@ footer{
     .logos{
         margin: 0;
         padding: 0;
+        width: auto;
     }
     .logos img{
         margin: 0px;
@@ -314,7 +315,7 @@ footer{
         display: grid;
         grid-template-columns: 350px;
         grid-row-gap: 10px;
-        margin: 0 20px;
+        margin: 0 15px;
     }
     .card{
         margin: 10px;
@@ -336,8 +337,13 @@ footer{
     contact area 
 ----------------------*/
     .contact-area{
-        width: 100%;
+        width: 330px;
         height: 150px;
+        margin: 10px 24px;
+
+    }
+    #last-section{
+        padding-right: 10px;
     }
     #last-section h3{
         font-size: 14px;
@@ -351,5 +357,13 @@ footer{
         padding: 4px 40px;
         margin-top: 5px;
         font-size: 12px;
+    }
+
+/*---------------
+     footer
+-----------------*/
+
+    footer{
+        width: 375px;
     }
 }
