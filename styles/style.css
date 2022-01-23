@@ -230,7 +230,9 @@ footer{
  mobile device
  ------------------ */
  @media only screen and (max-width:426px){
-    .nav-bar{
+ /*------------------ header---------------- */
+    
+     .nav-bar{
         height: 25px;
     }
     .checkbtn{
@@ -362,8 +364,81 @@ footer{
 /*---------------
      footer
 -----------------*/
-
     footer{
-        width: 375px;
+        width: 450px;
     }
 }
+
+ /*-------------------------------- 
+    tablet device
+ ----------------------------------- */
+ 
+ @media only screen and (min-width: 427px) and (max-width: 996px){
+     
+ /*------------------ header---------------- */
+    .nav-logo{
+         padding-top: 17px;
+        padding-left: 30px;
+        font-size: 20px;
+     }
+     nav ul{
+         margin-right: 10px;
+     }
+     nav ul li{
+         margin: 20px 15px; 
+     }
+
+ /*------------------- influence area ---------------*/
+     .influence-details{
+         padding-top: 0;
+     }
+     .influence-image img{
+         width: 90%;
+         padding-top: 35px;
+         padding-left: 0;
+     }
+
+/*-------------------- logos ----------------- */
+     hr{
+        width: 100%; 
+        margin-left: 0;
+     }
+     .logos{
+         margin: 0;
+         padding-left: 0;
+     }
+     .logos img{
+         margin: 5px 12px;
+     }
+
+/*---------------- collection area ------------------------- */
+    .collection-area{
+        width: 100%;
+        height: auto;
+    } 
+    .section-title{
+         margin-top: 40px;
+         margin-right: 180px;
+     }
+     .card-collection{
+        grid-template-columns: repeat(2, 345px);
+        grid-column-gap: 15px;
+        margin-left: 30px;
+    }
+     .card{
+         border: 1px solid yellow;
+         margin: 2px;
+     }
+     .more-button{
+         margin-top: 5px;
+         margin-right: 50px;
+         margin-bottom: 10px;
+     }
+
+/*----------------- contact area ----------------*/
+     .contact-area{
+         width: 700px;
+         height: 200px;
+     }
+
+ }
